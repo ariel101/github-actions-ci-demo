@@ -1,4 +1,5 @@
 const express = require('express');
+const unusedVariable = 'esto causara un error de linting';
 const app = express();
 app.use(express.json());
 
